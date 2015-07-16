@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt">
+
+<head>
+<meta content="pt-br" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!--[if IE 7]><link href="devcase-ie.css" rel="stylesheet" type="text/css" /><![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="host" content="aws"/>
+<title>Devcase Tecnologia - Desenvolvimento de sistemas de informação, Fábrica de software, Aplicativos para smartphones</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+ <body data-spy="scroll" data-target=".navbar">
+	<style>
+		h1 {
+			margin-bottom: 60px;
+			font-weight: 200;
+		}
+		h2 {
+			font-weight: 400;
+		}
+		.navbar-inverse {
+			background-color: rgba(5,5,5,0.8);
+			border-color:  rgba(5,5,5,0.8);
+		}		
+		.section {
+			padding-top: 100px;
+			padding-bottom: 50px;
+			min-height: 700px;
+		}
+		#logo {
+			background-image: url('img/bg0.jpg');
+			background-size: 1920px;
+			background-repeat: no-repeat;
+			background-position: top center;
+			color: rgb(255, 255, 255);
+		}
+		
+		#contato {
+			background-image: url('img/bg1.jpg');
+			background-size: 1920px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			color: rgb(255, 255, 255);
+		}
+		#mensagem {
+			background-image: url('img/bg2.jpg');
+			background-size: 1920px;
+			background-repeat: no-repeat;
+			background-position: bottom center;
+			background-color: rgb(243,243,243);
+			color: rgb(255, 255, 255);
+		}
+		#servicos {
+			background-image: url('img/bg3.jpg');
+			background-size: 1920px;
+			background-repeat: no-repeat;
+			background-position: bottom center;
+			background-color: rgb(243,243,243);
+			color: rgb(255, 255, 255);
+		}
+	</style>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-links">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			</div>		
+			<div class="collapse navbar-collapse" id="navbar-links">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#logo">Devcase</a></li>
+					<li><a href="#servicos">Serviços</a></li>
+					<li><a href="#contato">Contato</a></li>				
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div style="position: absolute; left: 50%;  top: 70px; " id="message-success-alert" class=" hidden" >
+		<div class="alert alert-success alert-dismissible fade in  " role="alert"   style="position: relative; left: -50%;">
+			<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+			Muito obrigado por entrar em contato!
+		</div>
+	</div>			
+	<div style="position: absolute; left: 50%;  top: 400px; ">
+		<a href="#servicos" style="position: relative; left: -50%;"><img src="img/down-arrow.png" /></a>
+	</div>
+	
+	<div class="section" id="logo">
+		<a href="#servicos"></a>
+		<div class="container">
+			<h1 class="sr-only">Devcase Tecnologia</h1>
+			<img src="img/devcase-logo.png" class="img-responsive center-block" style="margin-top: 60px;"/>
+		</div>
+	</div>		
+
+	<div class="section" id="servicos">
+		<div class="container">
+			<h1>Serviços</h1>
+		
+			<div class="row">
+				<div class="col-md-8">
+					<h2>Sistemas de Informação</h2>
+					<p>Construímos sistemas corporativos sob medida para atender às necessidades do seu negócio.</p>
+					<ul>
+						<li>Automatização de processos</li>
+						<li>Avaliação de pessoas</li>
+						<li>Gestão da qualidade</li>
+						<li>Gestão de clientes e pedidos</li>
+						<li>Controle de documentos</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-1 col-md-8">
+					<h2>Fábrica de Software</h2>
+					<p>Conte com nossa equipe de profissionais para entregar seus projetos de software com qualidade e rapidez. Trabalhamos com as seguintes plataformas:</p>
+					<ul>
+						<li>Java</li>
+						<li>.NET</li>
+						<li>iOS</li>
+						<li>Android</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8">
+					<h2>Serviços na Nuvem</h2>
+					<p>Coloque seu serviço na nuvem. Oferecemos a expertise necessária para concretizar sua ideia e colocá-la na Internet.</p>
+					<ul>
+						<li>Vendas online</li>
+						<li>B2C e B2B</li>
+						<li>Aplicativos em plataformas móveis</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="section" id="contato">
+		<div class="container">
+			<h1>Contato</h1>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">			
+					<address>
+						<strong>Devcase Tecnologia</strong><br/>
+						Rua Augusto Perroni, 804<br/>
+						Butantã<br/>
+						CEP 05539-020<br/>
+						São Paulo, SP, Brasil<br/>
+						<abbr title="Telefone">T:</abbr> +55 (11) 4115-7974<br/>
+						<abbr title="E-mail">E:</abbr> contato@devcase.com.br
+					</address>
+					<div class="text-center">
+						<ul class="list-inline">
+							<li>
+								<a href="https://www.facebook.com/devcasetec" class="btn btn-lg btn-info" target="_blank"><i class="fa fa-facebook fa-fw"></i> Facebook</a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/company/devcase-tecnologia" class="btn btn-lg btn-info" target="_blank"><i class="fa fa-linkedin fa-fw"></i> Linkedin</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-7 col-md-offset-0 col-xs-offset-1 col-xs-10">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3656.7962149119385!2d-46.728054099999994!3d-23.5757614!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce565e00790591%3A0xf15c6615d206c2fc!2sR.+Augusto+Perroni%2C+804+-+Conjunto+Residencial+Butanta%2C+S%C3%A3o+Paulo+-+SP%2C+05539-020%2C+Brazil!5e0!3m2!1sen!2s!4v1406080273463" width="100%" height="400" frameborder="0" style="border:0"></iframe>		
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<!--
+	<div class="section" id="mensagem" style='display:none'>
+		<div class="container">
+		
+			<h1>Mensagem</h1>
+			<div class="row">
+
+				<div class="col-md-8 col-md-offset-2">
+					<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads1225165000000071046 method='POST' onSubmit='javascript:document.charset="UTF-8";' accept-charset='UTF-8' class="form-horizontal" role="form">
+					  
+						<input type='text' style='display:none;' name='xnQsjsdp' value='NJM8WZTG7WFthYo@kRl79w$$'/>
+						<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+						<input type='text' style='display:none;' name='xmIwtLD' value='8jtps4s@GbcQWDNFvY9Bc-pHDLeD00fV'/>
+						<input type='text'  style='display:none;' name='actionType' value='TGVhZHM='/>
+						<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;www.devcase.com.br&#x2f;&#x23;message-success' /> 
+					  
+					  <div class="form-group">
+						<label for="inputFirstName" class="col-sm-3 control-label">Nome *</label>
+						<div class="col-sm-9">
+							<input type='text' class="form-control"  required="true" id="inputFirstName" maxlength='80' name='First Name'/>
+						</div>
+					  </div>
+					  <div class="form-group">
+						<label for="inputLastName" class="col-sm-3 control-label">Sobrenome *</label>
+						<div class="col-sm-9">
+							<input type='text' class="form-control"  required="true" id="inputLastName" maxlength='80' name='Last Name'/>
+						</div>
+					  </div>
+					  <div class="form-group">
+						<label for="inputEmail" class="col-sm-3 control-label">E-mail *</label>
+						<div class="col-sm-9 ">
+							<input type='email' class="form-control" required="true" id="inputEmail" maxlength='100' name='Email' />
+						</div>
+					  </div>
+					  <div class="form-group">
+						<label for="inputTelefone" class="col-sm-3 control-label">Telefone</label>
+						<div class="col-sm-9 ">
+							<input type='text' class="form-control" id="inputTelefone" maxlength='30' name='Phone' />
+						</div>
+					  </div>
+					  <div class="form-group">
+						<label for="inputEmpresa" class="col-sm-3 control-label">Empresa</label>
+						<div class="col-sm-9 ">
+							<input type='text' class="form-control" id="inputEmpresa" maxlength='100' name='Company' />
+						</div>
+					  </div>
+					  <div class="form-group">
+						<label for="inputObjetivo" class="col-sm-3 control-label">Objetivo do contato *</label>
+						<div class="col-sm-9 ">
+							<select class="form-control" required="true" name='LEADCF2' id="inputObjetivo">  
+								<option value=''>-Por favor, selecione-</option>  
+								<option value='Sistema de Informação'>Sistema de Informação</option>  
+								<option value='Aplicativo Móvel'>Aplicativo Móvel</option>  
+								<option value='Fábrica de Software'>Fábrica de Software</option>  
+								<option value='Software na Nuvem'>Software na Nuvem</option>  
+								<option value='Trabalhar conosco'>Trabalhar conosco</option>  
+							</select>
+						</div>
+					  </div>
+					  
+					  <div class="form-group">
+						<label for="inputMessage" class="col-sm-3 control-label">Mensagem *</label>
+						<div class="col-sm-9 ">
+							<textarea id="inputMessage" required="true" class="form-control" rows="5"  maxlength='1000' name="LEADCF1"></textarea>
+						</div>
+					  </div>
+					  <div class="form-group">
+						<div class="col-sm-offset-3 col-sm-9 text-right">
+						  <button type="submit" class="btn btn-lg btn-primary">Enviar</button>
+						</div>
+					  </div>
+					</form>
+				</div>
+
+			</div>
+		</div>
+	</div>-->
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+<script type="text/javascript">
+		$(function() {
+			//show message alert
+			if(window.location.hash.indexOf("message-success") > 0) {
+				$('#message-success-alert').removeClass('hidden');
+			}
+		});
+		
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			  if (target.length) {
+				$('html,body').animate({
+				  scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			  }
+			}
+		  });
+		});		
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-6701551-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	<script src="//load.sumome.com/" data-sumo-site-id="336d918d01433818eaf0d3f39378be4f6e32f5f62e0ead40bc5599ff3731fb52" async="async"></script>
+  </body>
+</html>
