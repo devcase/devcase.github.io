@@ -5,6 +5,8 @@ html, body {
     background-repeat: no-repeat;
 	background-position: center;
 	background-size: 1440px;
+	text-shadow: none !important;
+	background-color: white;
 }
 
 @media (min-width: 1441px) {
@@ -13,6 +15,9 @@ html, body {
 	}
 }
 
+.cover-container {
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
 
 .devcase-brand {
 	background-image: url('../img/devcase-logo.png') ;
