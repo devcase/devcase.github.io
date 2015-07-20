@@ -1,0 +1,19 @@
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 200;
+	text-shadow: none;
+}
+
+body {
+}
+
+
+
+.devcase-brand {
+	background-image: url('../img/devcase-logo.png') ;
+	background-size: 210px 63px;
+    background-repeat: no-repeat;
+	height: 63px;
+	width: 210px;
+	
+}
